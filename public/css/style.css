@@ -1,4 +1,60 @@
 
+/*** Global Font Settings ***/
+body {
+    font-family: "IBM Plex Sans Thai", "Prompt", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "IBM Plex Sans Thai", "Prompt", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+p, span, div, a, button, input, textarea, select, li, td, th {
+    font-family: "IBM Plex Sans Thai", "Prompt", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* IBM Plex Sans Thai Font Weight Utilities */
+.ibm-plex-sans-thai-thin {
+    font-family: "IBM Plex Sans Thai", "Prompt", sans-serif !important;
+    font-weight: 100 !important;
+    font-style: normal !important;
+}
+
+.ibm-plex-sans-thai-extralight {
+    font-family: "IBM Plex Sans Thai", "Prompt", sans-serif !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+}
+
+.ibm-plex-sans-thai-light {
+    font-family: "IBM Plex Sans Thai", "Prompt", sans-serif !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+}
+
+.ibm-plex-sans-thai-regular {
+    font-family: "IBM Plex Sans Thai", "Prompt", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.ibm-plex-sans-thai-medium {
+    font-family: "IBM Plex Sans Thai", "Prompt", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
+
+.ibm-plex-sans-thai-semibold {
+    font-family: "IBM Plex Sans Thai", "Prompt", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+}
+
+.ibm-plex-sans-thai-bold {
+    font-family: "IBM Plex Sans Thai", "Prompt", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+}
+
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {

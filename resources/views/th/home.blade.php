@@ -4,7 +4,24 @@
 @endsection
 @section('content')
 
-
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
 
         <!-- Carousel Start -->
         <div class="carousel-header">
@@ -51,30 +68,165 @@
         </div>
         <!-- Carousel End -->
 
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!-- Services Start -->
+        <div class="container-fluid service overflow-hidden pt-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">นวัตกรรม</h5>
                     </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                    <h1 class="display-5 mb-4">กลุ่มนวัตกรรมที่ได้รับการนิยม</h1>
+                    <p class="mb-0">นวัตกรรมที่มีผู้สนใจ และเข้าเยี่ยมชมมากที่สุด ข้อมูลนวัตกรรมถูกแยกออกเป็นกลุ่มที่โด่ดเด่น ที่ถูกจัดอันดับเป็น 6 กลุ่มนวัตกรรม โดยมีข้อมูลนวัตกรรมให้เยี่ยมชมดังนี้</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/pageHome-1.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="/research-results-commercial" class="h4 text-white mb-0">สมุมไพร</a>
+                                        </div> 
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">สมุมไพร</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">ศึกษาเรื่องราวในอดีตเพื่อเข้าใจปัจจุบัน</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="/research-results-commercial">เยี่ยมชมข้อมูล</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/pageHome-2.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="/research-results-commercial" class="h4 text-white mb-0">อาหาร</a>
+                                        </div> 
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">อาหาร</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">นวัตกรรมและงานวิจัยภายใต้มหาวิทยาลัยมหาสารคาม ที่เกี่ยวข้องกับ อาหาร</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="/research-results-commercial">เยี่ยมชมข้อมูล</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/pageHome-3.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">สัตว์เศรษฐกิจ</a>
+                                        </div> 
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="/research-results-commercial"><h4 class="text-white mb-4 py-3">สัตว์เศรษฐกิจ</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">นวัตกรรมและงานวิจัยภายใต้มหาวิทยาลัยมหาสารคาม ที่เกี่ยวข้องกับ อาหาร</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="/research-results-commercial">เยี่ยมชมข้อมูล</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/pageHome-4.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">พืชสวน</a>
+                                        </div> 
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="/research-results-commercial"><h4 class="text-white mb-4 py-3">พืชสวน</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">นวัตกรรมและงานวิจัยภายใต้มหาวิทยาลัยมหาสารคาม ที่เกี่ยวข้องกับ พืชสวน</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="/research-results-commercial">เยี่ยมชมข้อมูล</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/pageHome-5.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">ข้าวพืช / ไร่</a>
+                                        </div> 
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="/research-results-commercial"><h4 class="text-white mb-4 py-3">ข้าว / พืชไร่</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">นวัตกรรมและงานวิจัยภายใต้มหาวิทยาลัยมหาสารคาม ที่เกี่ยวข้องกับ ข้าว / พืชไร่</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="/research-results-commercial">เยี่ยมชมข้อมูล</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/pageHome-6.png" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">เทคโนโลยีอุสาหกรรม</a>
+                                        </div> 
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="/research-results-commercial"><h4 class="text-white mb-4 py-3">เทคโนยีอุสาหกรรม</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">นวัตกรรมและงานวิจัยภายใต้มหาวิทยาลัยมหาสารคาม ที่เกี่ยวข้องกับ เทคโนยีอุสาหกรรม</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="/research-results-commercial">เยี่ยมชมข้อมูล</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="/innovation-group">แสดงทั้งหมด</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal Search End -->
-
-
+        <!-- Services End -->
 
         <!-- About Start -->
-        <div class="container-fluid py-5">
+        <!-- <div class="container-fluid py-5">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
@@ -130,9 +282,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- About End -->
-
 
         <!-- Counter Facts Start -->
         <div class="container-fluid counter-facts py-5">
@@ -199,9 +350,237 @@
         </div>
         <!-- Counter Facts End -->
 
+        <!-- Features Start -->
+        <div class="container-fluid features overflow-hidden py-5">
+            <div class="container">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">ทุนพัฒนาบุคลากรวิจัย</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">ทุนพัฒนาบุคลากรวิจัย</h1>
+                    <p class="mb-0">มหาวิทยาลัยมหาสารคาม ได้มีทุนพัฒนาบุคลากรวิจัย เป็นค่าตอบแทนสำหรับนักวิจัยที่มีอุดมการณ์ เพื่อพัฒนาองค์กรให้เดินทางเข้าสู่นวัตกรรมใหม่ๆ ที่สามารถนำมาประยุกต์ใช้ให้เกิดประโยนช์สูงสุด</p>
+                </div>
+                <div class="row g-4 justify-content-center text-center">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-dollar-sign fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">ทุนการศึกษา</h5>
+                                <p class="mb-3">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                <a class="btn btn-secondary rounded-pill" href="#">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fab fa-cc-visa fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">ทุนระดับนานาชาติ</h5>
+                                <p class="mb-3">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                <a class="btn btn-secondary rounded-pill" href="#">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-atlas fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">ทุนวิจัยบัณฑิตศึกษา</h5>
+                                <p class="mb-3">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                <a class="btn btn-secondary rounded-pill" href="#">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-users fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">โครงการฝึกอบรม</h5>
+                                <p class="mb-3">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                <a class="btn btn-secondary rounded-pill" href="#">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial overflow-hidden pb-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">อุดมการณ์</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">อุดมการณ์นักวิจัย</h1>
+                    <p class="mb-0">มุมมองอุดมการณ์ สำหรับนักวิจัย...........................</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow zoomInDown" data-wow-delay="0.2s">
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" alt="img">
+                            </div>
+                            <div class="my-auto">
+                                <h5>Person Name</h5>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" alt="img">
+                            </div>
+                            <div class="my-auto">
+                                <h5>Person Name</h5>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" alt="img">
+                            </div>
+                            <div class="my-auto">
+                                <h5>Person Name</h5>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Training Start -->
+        <div class="container-fluid training overflow-hidden bg-light py-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">นักวิจัย</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">ข้อมูลนักวิจัย</h1>
+                    <p class="mb-0">ข้อมูลนักวิจัย ที่มีนวัตกรรมและผลงานวิจัย ท่านสามารถเลือกชมและติดต่อนักวิจัยโดยตรง ผ่านช่องทางที่นักวิจัยลงข้อมูลให้ติดต่อ.....</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0">IELTS</a>
+                                    <a href="#" class="h4 text-white mb-0">Coaching</a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white">IELTS Coaching</h4></a>
+                                <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, veritatis.</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0">TOEFL</a>
+                                    <a href="#" class="h4 text-white mb-0">Coaching</a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white">TOEFL Coaching</h4></a>
+                                <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, veritatis.</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0">PTE</a>
+                                    <a href="#" class="h4 text-white mb-0">Coaching</a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white">PTE Coaching</h4></a>
+                                <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, veritatis.</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-4.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0">OET</a>
+                                    <a href="#" class="h4 text-white mb-0">Coaching</a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white">OET Coaching</h4></a>
+                                <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, veritatis.</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">ข้อมูลนักวิจัยทั้งหมด</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Training End -->
 
         <!-- Services Start -->
-        <div class="container-fluid service overflow-hidden pt-5">
+        <!-- <div class="container-fluid service overflow-hidden pt-5">
             <div class="container py-5">
                 <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="sub-style">
@@ -357,13 +736,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Services End -->
 
-
-
         <!-- Features Start -->
-        <div class="container-fluid features overflow-hidden py-5">
+        <!-- <div class="container-fluid features overflow-hidden py-5">
             <div class="container">
                 <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="sub-style">
@@ -426,13 +803,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Features End -->
 
-
-
         <!-- Countries We Offer Start -->
-        <div class="container-fluid country overflow-hidden py-5">
+        <!-- <div class="container-fluid country overflow-hidden py-5">
             <div class="container">
                 <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
                     <div class="sub-style">
@@ -499,12 +874,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Countries We Offer End -->
 
-
         <!-- Testimonial Start -->
-        <div class="container-fluid testimonial overflow-hidden pb-5">
+        <!-- <div class="container-fluid testimonial overflow-hidden pb-5">
             <div class="container py-5">
                 <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="sub-style">
@@ -582,13 +956,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Testimonial End -->
 
-
-
         <!-- Training Start -->
-        <div class="container-fluid training overflow-hidden bg-light py-5">
+        <!-- <div class="container-fluid training overflow-hidden bg-light py-5">
             <div class="container py-5">
                 <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="sub-style">
@@ -667,12 +1039,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Training End -->
 
-
         <!-- Contact Start -->
-        <div class="container-fluid contact overflow-hidden pb-5">
+        <!-- <div class="container-fluid contact overflow-hidden pb-5">
             <div class="container py-5">
                 <div class="office pt-5">
                     <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -738,7 +1109,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Contact End -->
 
 @endsection

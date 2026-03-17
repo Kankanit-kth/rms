@@ -32,50 +32,6 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
-    <style>
-        .ibm-plex-sans-thai-thin {
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-        }
-
-        .ibm-plex-sans-thai-extralight {
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        font-weight: 200;
-        font-style: normal;
-        }
-
-        .ibm-plex-sans-thai-light {
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        }
-
-        .ibm-plex-sans-thai-regular {
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        }
-
-        .ibm-plex-sans-thai-medium {
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        }
-
-        .ibm-plex-sans-thai-semibold {
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        }
-
-        .ibm-plex-sans-thai-bold {
-        font-family: "IBM Plex Sans Thai", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        }
-
-    </style>
 
     <body>
 
@@ -123,9 +79,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="/home" class="nav-item nav-link active">หน้าหลัก</a>
-                        <a href="#" class="nav-item nav-link">เกี่ยวกับ</a>
-                        <div class="nav-item dropdown">
+                        <a href="/" class="nav-item nav-link active">หน้าหลัก</a>
+                        <a href="/about" class="nav-item nav-link">เกี่ยวกับ</a>
+                        <a href="/innovation-group" class="nav-item nav-link">กลุ่มนวัตกรรม</a>
+                        <a href="/research-results-commercial" class="nav-item nav-link">ผลงานวิจัยเชิงพาณิชย์</a>
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">ผลงานวิจัยพร้อมใช้</span></a>
                             <div class="dropdown-menu m-0">
                                 <a href="#" class="dropdown-item">เชิงนโยบาย</a>
@@ -134,8 +92,8 @@
                                 <a href="#" class="dropdown-item">ทรัพย์สินทางปัญญา</a>
                                 <a href="#" class="dropdown-item">ผลงานที่ได้รับรางวัล</a>
                             </div>
-                        </div>
-                        <a href="/contact" class="nav-item nav-link">ติดต่อ</a>
+                        </div> -->
+                        <a href="/contact" class="nav-item nav-link">ติดต่อเรา</a>
                     </div>
                     <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                 </div>
@@ -146,7 +104,77 @@
         @yield('content')
 
         <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-3">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4 ibm-plex-sans-thai-semibold">ข้อมูลการติดต่อ</h4>
+                            <a href="#" class="ibm-plex-sans-thai-regular"><i class="fa fa-map-marker-alt me-2"></i> กองส่งเสริมการวิจัยและบริการวิชาการ สำนักงานอธิการบดี มหาวิทยาลัยมหาสารคาม ต.ขามเรียง อ.กันทรวิชัย จ.มหาสารคาม 44150</a> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4 ibm-plex-sans-thai-semibold">ข้อมูลการติดต่อ</h4> 
+                            <a href="#" class="ibm-plex-sans-thai-regular"><i class="fas fa-envelope me-2"></i> inbox_research@msu.ac.th</a>
+                            <a href="#" class="ibm-plex-sans-thai-regular"><i class="fas fa-phone me-2"></i> 043-754-416</a> 
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                                <a class="btn mx-1" href="https://www.facebook.com/NewResearch2020" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn mx-1" href="https://www.youtube.com/channel/UClL7rCd80_CqHx65kXpHolg" target="_blank"><i class="fab fa-youtube"></i></a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4 ibm-plex-sans-thai-semibold">เวลาทำการ</h4>
+                            <div class="mb-3">
+                                <h6 class="text-white mb-0 ibm-plex-sans-thai-regular">วันจันทร์ - ศุกร์ หรือวันทำการ:</h6>
+                                <p class="text-white mb-0 ibm-plex-sans-thai-regular">08.30 ถึง 16.30 น.</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4 ibm-plex-sans-thai-semibold">เมนูหลัก</h4>
+                            <a href="/" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i> หน้าหลัก</a>
+                            <a href="/about" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i> เกี่ยวกับเรา</a>
+                            <a href="/" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>กลุ่มนวัตกรรม</a> 
+                            <a href="/" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>ผลงานวิจัยเชิงพาณิชย์</a> 
+                            <a href="/contact" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>ติดต่อเรา</a> 
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white ibm-plex-sans-thai-regular">
+                            <a href="#" class="border-bottom text-white">
+                                <i class="fas fa-copyright text-light me-2"></i>นโยบายและผลงานวิจัย
+                            </a>, กองส่งเสริมการวิจัยและบริการวิชาการ มหาวิทยาลัยมหาสารคาม
+                        </span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white"> 
+                        โดย <a class="border-bottom text-white ibm-plex-sans-thai-regular" href="#">งานพัฒนาระบบ กองแผนงาน</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>  
+
+        <!-- Footer Start -->
+        <!-- <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
@@ -205,31 +233,31 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Footer End -->
 
 
         <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
+        <!-- <div class="container-fluid copyright py-4">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
                         <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
+                    </div> -->
+                    <!-- <div class="col-md-6 text-center text-md-end text-white"> -->
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                </div>
+                        <!-- Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> -->
+                    <!-- </div> -->
+                <!-- </div>
             </div>
-        </div>
+        </div> -->
         <!-- Copyright End -->
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+        <!-- <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a> -->
 
 
     <!-- JavaScript Libraries -->
