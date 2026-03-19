@@ -43,7 +43,7 @@
                                         <a href="#"><h4 class="text-white mb-4 py-3">ชื่องานนวัตกรรมและผลงานวิจัย..</h4></a>
                                         <div class="px-4">
                                             <p class="mb-4">รวมผลงานวิจัยวิจัยเชิงนโยบายสำหรับภาคธุรกิจ ประกอบด้วยนวัตกรรมแห่ง โลกอนาคต และเทคโนโลยีการเกษตร เพื่อประยุกต์ใช้ รวมถึงพัฒนา ต่อยอดผลิตภัณฑ์ ก่อให้เกิดการสร้างมูลค่าเชิงพาณิชย์ ช่วยให้การ หมุนเวียนของระบบเศรษฐกิจทั้งภายใน และต่างประเทศ</p>
-                                            <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="#">ดูข้อมูล</a>
+                                            <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="/view-performance">ดูข้อมูล</a>
                                         </div>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@
                                         <a href="#"><h4 class="text-white mb-4 py-3">ชื่องานนวัตกรรมและผลงานวิจัย..</h4></a>
                                         <div class="px-4">
                                             <p class="mb-4">รวมผลงานวิจัยวิจัยเชิงนโยบายสำหรับภาคธุรกิจ ประกอบด้วยนวัตกรรมแห่ง โลกอนาคต และเทคโนโลยีการเกษตร เพื่อประยุกต์ใช้ รวมถึงพัฒนา ต่อยอดผลิตภัณฑ์ ก่อให้เกิดการสร้างมูลค่าเชิงพาณิชย์ ช่วยให้การ หมุนเวียนของระบบเศรษฐกิจทั้งภายใน และต่างประเทศ</p>
-                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">ดูข้อมูล</a>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="/view-performance">ดูข้อมูล</a>
                                         </div>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@
                                         <a href="#"><h4 class="text-white mb-4 py-3">ชื่องานนวัตกรรมและผลงานวิจัย..</h4></a>
                                         <div class="px-4">
                                             <p class="mb-4">รวมผลงานวิจัยวิจัยเชิงนโยบายสำหรับภาคธุรกิจ ประกอบด้วยนวัตกรรมแห่ง โลกอนาคต และเทคโนโลยีการเกษตร เพื่อประยุกต์ใช้ รวมถึงพัฒนา ต่อยอดผลิตภัณฑ์ ก่อให้เกิดการสร้างมูลค่าเชิงพาณิชย์ ช่วยให้การ หมุนเวียนของระบบเศรษฐกิจทั้งภายใน และต่างประเทศ</p>
-                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">ดูข้อมูล</a>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="/view-performance">ดูข้อมูล</a>
                                         </div>
                                     </div>
                                 </div>

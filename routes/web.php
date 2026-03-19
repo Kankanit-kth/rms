@@ -37,3 +37,7 @@ Route::get('/innovation-group-all', function () {
     return view('th/innovation-group-all');
 });
 
+Route::get('/view-performance', function () {
+    return view('th/view-performance');
+});
+

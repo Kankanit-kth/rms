@@ -79,10 +79,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="/" class="nav-item nav-link active">หน้าหลัก</a>
-                        <a href="/about" class="nav-item nav-link">เกี่ยวกับ</a>
-                        <a href="/innovation-group" class="nav-item nav-link">กลุ่มนวัตกรรม</a>
-                        <a href="/research-results-commercial" class="nav-item nav-link">ผลงานวิจัยเชิงพาณิชย์</a>
+                        <a href="/" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">หน้าหลัก</a>
+                        <a href="/about" class="nav-item nav-link {{ request()->is('about') ? 'active' : '' }}">เกี่ยวกับ</a>
+                        <a href="/innovation-group" class="nav-item nav-link {{ request()->is('innovation-group') ? 'active' : '' }}">กลุ่มนวัตกรรม</a>
+                        <a href="/research-results-commercial" class="nav-item nav-link {{ request()->is('research-results-commercial') ? 'active' : '' }}">ผลงานวิจัยเชิงพาณิชย์</a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">ผลงานวิจัยพร้อมใช้</span></a>
                             <div class="dropdown-menu m-0">
@@ -93,7 +93,7 @@
                                 <a href="#" class="dropdown-item">ผลงานที่ได้รับรางวัล</a>
                             </div>
                         </div> -->
-                        <a href="/contact" class="nav-item nav-link">ติดต่อเรา</a>
+                        <a href="/contact" class="nav-item nav-link {{ request()->is('contact') ? 'active' : '' }}">ติดต่อเรา</a>
                     </div>
                     <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                 </div>
@@ -139,8 +139,8 @@
                             <h4 class="text-secondary mb-4 ibm-plex-sans-thai-semibold">เมนูหลัก</h4>
                             <a href="/" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i> หน้าหลัก</a>
                             <a href="/about" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i> เกี่ยวกับเรา</a>
-                            <a href="/" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>กลุ่มนวัตกรรม</a> 
-                            <a href="/" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>ผลงานวิจัยเชิงพาณิชย์</a> 
+                            <a href="/innovation-group" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>กลุ่มนวัตกรรม</a> 
+                            <a href="/research-results-commercial" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>ผลงานวิจัยเชิงพาณิชย์</a> 
                             <a href="/contact" class="ibm-plex-sans-thai-regular"><i class="fas fa-angle-right me-2"></i>ติดต่อเรา</a> 
                         </div>
                     </div> 
@@ -149,7 +149,6 @@
         </div>
         <!-- Footer End -->
 
-        
         <!-- Copyright Start -->
         <div class="container-fluid copyright py-4">
             <div class="container">

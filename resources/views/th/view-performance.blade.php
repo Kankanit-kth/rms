@@ -10,7 +10,8 @@
                 <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">นวัตกรรม</h1>
                 <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/" class="text-white">หน้าหลัก</a></li>  
-                    <li class="breadcrumb-item active text-secondary">นวัตกรรม</li>
+                    <li class="breadcrumb-item"><a href="/innovation-group" class="text-white">กลุ่มนวัตกรรม</a></li>
+                    <li class="breadcrumb-item active text-secondary">รายละเอียดนวัตกรรม</li>
                 </ol>    
             </div>
         </div>
