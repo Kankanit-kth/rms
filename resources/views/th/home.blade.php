@@ -4,25 +4,7 @@
 @endsection
 @section('content')
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
-
+        
         <!-- Carousel Start -->
         <div class="carousel-header">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -225,66 +207,6 @@
         </div>
         <!-- Services End -->
 
-        <!-- About Start -->
-        <!-- <div class="container-fluid py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="bg-light rounded">
-                            <img src="img/about-2.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
-                            <img src="img/about-3.jpg" class="img-fluid w-100 border-bottom border-5 border-primary" style="border-top-right-radius: 300px; border-top-left-radius: 300px;" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h5 class="sub-title pe-3">About the company</h5>
-                        <h1 class="display-5 mb-4">We’re Trusted Immigration Consultant Agency.</h1>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt architecto consectetur iusto perferendis blanditiis assumenda dignissimos, commodi fuga culpa earum explicabo libero sint est mollitia saepe! Sequi asperiores rerum nemo!</p>
-                        <div class="row gy-4 align-items-center">
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-map-marked-alt fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Best Immigration Resources</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-passport fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Return Visas Availabile</h5>
-                            </div>
-                            <div class="col-4 col-md-3">
-                                <div class="bg-light text-center rounded p-3">
-                                    <div class="mb-2">
-                                        <i class="fas fa-ticket-alt fa-4x text-primary"></i>
-                                    </div>
-                                    <h1 class="display-5 fw-bold mb-2">34</h1>
-                                    <p class="text-muted mb-0">Years of Experience</p>
-                                </div>
-                            </div>
-                            <div class="col-8 col-md-9">
-                                <div class="mb-5">
-                                    <p class="text-primary h6 mb-3"><i class="fa fa-check-circle text-secondary me-2"></i> Offer 100 % Genuine Assistance</p>
-                                    <p class="text-primary h6 mb-3"><i class="fa fa-check-circle text-secondary me-2"></i> It’s Faster & Reliable Execution</p>
-                                    <p class="text-primary h6 mb-3"><i class="fa fa-check-circle text-secondary me-2"></i> Accurate & Expert Advice</p>
-                                </div>
-                                <div class="d-flex flex-wrap">
-                                    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
-                                        <a href="" class="position-relative wow tada" data-wow-delay=".9s">
-                                            <i class="fa fa-phone-alt text-primary fa-3x"></i>
-                                            <div class="position-absolute" style="top: 0; left: 25px;">
-                                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="d-flex flex-column justify-content-center">
-                                        <span class="text-primary">Have any questions?</span>
-                                        <span class="text-secondary fw-bold fs-5" style="letter-spacing: 2px;">Free: +0123 456 7890</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- About End -->
-
         <!-- Counter Facts Start -->
         <div class="container-fluid counter-facts py-5">
             <div class="container py-5">
@@ -292,13 +214,14 @@
                     <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="counter">
                             <div class="counter-icon">
-                                <i class="fas fa-passport"></i>
+                                <!-- <i class="fas fa-passport"></i> -->
+                                 <i class="fas fa-users"></i>
                             </div>
                             <div class="counter-content">
-                                <h3>Visa Categories</h3>
+                                <h3>สถิติการเข้าชมเว็บไซต์</h3>
                                 <div class="d-flex align-items-center justify-content-center">
                                     <span class="counter-value" data-toggle="counter-up">31</span>
-                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                    <!-- <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4> -->
                                 </div>
                             </div>
                         </div>
@@ -309,10 +232,10 @@
                                 <i class="fas fa-users"></i>
                             </div>
                             <div class="counter-content">
-                                <h3>Team Members</h3>
+                                <h3>ThaiEdResearcd</h3>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="counter-value" data-toggle="counter-up">377</span>
-                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                    <span class="counter-value" data-toggle="counter-up">943</span>
+                                    <!-- <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4> -->
                                 </div>
                             </div>
                         </div>
@@ -323,10 +246,10 @@
                                 <i class="fas fa-user-check"></i>
                             </div>
                             <div class="counter-content">
-                                <h3>Visa Process</h3>
+                                <h3>National Research and Innovation Information System (NRIIS)</h3>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="counter-value" data-toggle="counter-up">4.9</span>
-                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
+                                    <span class="counter-value" data-toggle="counter-up">358</span>
+                                    <!-- <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4> -->
                                 </div>
                             </div>
                         </div>
@@ -337,10 +260,10 @@
                                 <i class="fas fa-handshake"></i>
                             </div>
                             <div class="counter-content">
-                                <h3>Success Rates</h3>
+                                <h3>Thai Digital Collection (TDC)</h3>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="counter-value" data-toggle="counter-up">98</span>
-                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">%</h4>
+                                    <span class="counter-value" data-toggle="counter-up">68</span>
+                                    <!-- <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">%</h4> -->
                                 </div>
                             </div>
                         </div>
@@ -572,7 +495,7 @@
                         </div>
                     </div>
                     <div class="col-12 text-center">
-                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">ข้อมูลนักวิจัยทั้งหมด</a>
+                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="/researcher-information">ข้อมูลนักวิจัยทั้งหมด</a>
                     </div>
                 </div>
             </div>

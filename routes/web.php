@@ -41,3 +41,7 @@ Route::get('/view-performance', function () {
     return view('th/view-performance');
 });
 
+Route::get('/researcher-information', function () {
+    return view('th/researcher-information');
+});
+

@@ -16,8 +16,40 @@
         </div>
         <!-- Header End -->
 
-        <!-- Training Start -->
+        <!-- -->
         <div class="container-fluid training overflow-hidden py-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">เกี่ยวกับเรา</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">นวัตกรรมและงานวิจัย</h1>
+                    <p class="mb-0 text-indent: 2em text-start mb-3" style="text-indent: 3rem;">เป็นฐานข้อมูลที่พัฒนาขึ้นโดยสำนักงานเลขาธิการสภาการศึกษามีวัตถุประสงค์เพื่อเป็นฐานข้อมูลที่รวบรวมผลงานวิจัยทางการศึกษาจากการประชุมทางวิชาการการวิจัยทางการศึกษาระดับชาติ รวมถึงผลงานวิจัยทางการศึกษาที่มีคุณภาพของนักวิจัยที่ประสงค์จะเผยแพร่ผลงานวิจัยของตนเอง นอกจากนั้น ThaiEDResearch ยังมีเป้าหมายเพื่อเป็นช่องทางการเผยแพร่ผลงานวิจัย องค์ความรู้ นวัตกรรม สิ่งประดิษฐ์ใหม่ๆ เพื่อให้กับบุคคลและหน่วยงานทางการศึกษาทุกระดับและประเภทการศึกษา ทั้งภาครัฐและเอกชนตลอดจนผู้ใช้ประโยชน์จากงานวิจัยได้เข้าถึงและนำไปใช้ประโยชน์ในทางตรงเพื่อแก้ไขปัญหาหรือนำไปใช้ประโยชน์ในการพัฒนาระบบการเรียนรู้เพื่อพัฒนาการศึกษา</p>
+                    <p class="text-indent: 2em text-start mb-3">โดยให้บริการสืบค้นข้อมูลผลงานวิจัยทางการศึกษาจำแนกตามหมวดหมู่ต่างๆ 14 หมวดหมู่ ได้แก่</p>
+                    <ul class="list-unstyled text-start">
+                        <li>1. การศึกษาตลอดชีวิต (ไม่แบ่งระดับ)</li>
+                        <li>2. การศึกษาพิเศษ (ไม่แบ่งระดับ)</li>
+                        <li>3. การศึกษาตลอดชีวิต (ไม่แบ่งระดับ)</li>
+                        <li>4. กฎหมายการศึกษา</li>
+                        <li>5. การศึกษาปฐมวัย</li>
+                        <li>6. การประถมศึกษาและมัธยมศึกษา</li>
+                        <li>7. การอาชีวศึกษา</li>
+                        <li>8. การประถมการอุดมศึกษาศึกษาและมัธยมศึกษา</li>
+                        <li>9. กการศึกษาสำหรับบุคคลที่มีความต้องการพิเศษ</li>
+                        <li>10. ครูและบุคลากรทางการศึกษา</li>
+                        <li>11. เทคโนโลยีทางการศึกษา</li>
+                        <li>12. นโยบายการศึกษา</li>
+                        <li>13. หลักสูตรและการเรียนรู้</li>
+                        <li>14. อื่นๆ</li>
+                    </ul>
+                    <p class="mb-0 text-start mb-3" style="text-indent: 3rem;">สำหรับนักวิจัยที่ประสงค์จะเผยแพร่ผลงานวิจัยทางการศึกษา สามารถสมัครเป็นสมาชิก ThaiEDResearch เพื่อแจ้งความประสงค์และกรอกข้อมูลตามแบบฟอร์มที่สำนักงานเลขาธิการสภาการศึกษากำหนด หากผลงานวิจัยผ่านเกณฑ์การพิจารณาจากคณะกรรมการจะได้รับการเผยแพร่ทาง ThaiEDResearch ต่อไป ทั้งนี้ นักวิจัยสามารถศึกษารายละเอียดขั้นตอนการแจ้งความประสงค์ขอเผยแพร่ผลงานวิจัยทางการศึกษาได้จากคู่มือการใช้งานที่อยู่บนหน้าเว็บเพจนี้</p>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+
+        <!-- Training Start -->
+        <!-- <div class="container-fluid training overflow-hidden py-5">
             <div class="container py-5">
                 <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="sub-style">
@@ -96,7 +128,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Training End -->
 
         <!-- About Start -->
@@ -160,7 +192,7 @@
         <!-- About End -->
 
         <!-- Counter Facts Start -->
-        <div class="container-fluid counter-facts py-5">
+        <!-- <div class="container-fluid counter-facts py-5">
             <div class="container py-5">
                 <div class="row g-4">
                     <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -221,11 +253,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Counter Facts End -->
 
         <!-- Countries We Offer Start -->
-        <div class="container-fluid country overflow-hidden py-5">
+        <!-- <div class="container-fluid country overflow-hidden py-5">
             <div class="container py-5">
                 <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
                     <div class="sub-style">
@@ -292,7 +324,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Countries We Offer End -->
 
 @endsection
